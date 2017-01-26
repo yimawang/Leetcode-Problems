@@ -1,5 +1,5 @@
- ##Power of Two
- #Naive solution:
+# Power of Two
+## Naive solution:
      public boolean isPowerOfTwo(int n) {
         if(n==0)
             return false;
@@ -12,7 +12,7 @@
         }
         return true;
     }
-#Better solution with n&(n-1) trick:
+## Better solution with n&(n-1) trick:
     public boolean isPowerOfTwo(int n) {
         if(n<=0)
             return false;

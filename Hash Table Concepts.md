@@ -8,6 +8,7 @@ This mean we could use HashMap.put function more to replace many HashMap.contain
 Leetcode problem: 290) Word Pattern
 
 Solution: 
+```
 public class Solution {
     public boolean wordPattern(String pattern, String str) {
         String[] the_string = str.split(" ");
@@ -32,3 +33,4 @@ public class Solution {
         return true;
     }
 }
+```
